@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+ul{
+        list-style-type: none;
+    }
+    .modificarnav{
+        
+        padding: 20px;
+    }
+    
+    #logo{ 
+        text-align: center;
+        padding: 20px;
+        margin-bottom: 20px;
+        }
+    
+    .slider{
+        margin-top:50px;
+        margin-bottom: 100px;
+    }
+    .modiofertas{
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+    }
+    
+    .card-c{
+        transition: transform 1s;
+        box-shadow: 2px 2px 3px #999;
+    }
+    .card-c:hover{
+        transform: scale(1.1);
+    }
+    
+    .card-title{
+        color: rgb(2, 2, 2);
+        
+    }
+    .card-text{
+        color: rgb(8, 8, 8);
+    }
+    .footerdesing{
+        background-color: rgb(53, 53, 53);
+    }
+    
+    .imgfooter{
+        display: block;
+        text-align: center;
+        color: wheat;
+        padding-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .textfooter{
+        color: wheat;
+        margin-top: 50px;
+        padding-left: 50px;
+        
+    }
+    
+    .nosotros{
+        margin-top: 30px;
+        padding: 5px 0px 5px 0px;
+        background-color: rgb(75, 74, 74);
+        color: white;
+        
+    }
+    .nosotros-text{
+        opacity: 0;
+        transition: all 3s;
+    }
+    .nosotros-img:hover ~ .nosotros-text{
+        opacity: 1;   
+    }
+    .nosotros-img:hover{
+        opacity: 0.8;
+    }
+    .nosotros-lista li{
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .nosotros-item{
+        display:flex;
+        margin: 5px 20px 5px 20px;
+    }
+    
+    .nosotros-text{
+        margin-left: 15px;
+    }
+    
+    .iframedesing{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 50px;
+        font-family: 'Fjalla One', sans-serif;
+    }
+    
+    h3{
+        font-size: 50px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: white;
+        background-color: #212529;
+    }
+    
+    
+    .modiform h2 {
+        padding: 15px 0 15px 0;
+    }
+    
+    .modiform {
+        margin-bottom: 30px;
+    }
+    
+    .iconos{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    
+    
+    body
+    {
+        background-image:url(assets/cmd.jpg);
+        height: max-content;
+        background-size: cover;
+        background-position:top;
+        
+        
+    }
+    
+    .jumbotron{
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        
+    }
+    
+    .formulario{
+        background-color: rgba(0,0,0,0.8);
+        color: white;
+        padding: 20px;
+        
+    }
+
+   
+       
+    .carta{
+        margin-top: 20px;
+        margin bottom: 20px;
+        padding: 20px;
+    }
+    
+    
+    #producto-titulo h2{
+        font-family: 'Fjalla One', sans-serif;
+        text-align: center;
+        font-size: 80px;
+        color: rgb(255, 255, 255);
+        }
+    
+    .producto-categoria h4{
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 50px;
+    }
+    
+    
+    /* MEDIAS QUERY*/
+    
+    @media only screen and (max-width: 360px) {
+    
+    .nosotros-text{
+            opacity: 1;
+                }
+    .nosotros-item{
+        flex-direction: column;
+        margin: 5px 1px 5px 1px;
+    }
+      
+    }
+    
+    @media only screen and (max-width: 768px) {
+         
+        .nosotros-text{
+            opacity: 1;
+                }
+    .nosotros-item{
+        flex-direction: column;
+        
+    }
+    }
